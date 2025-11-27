@@ -1,7 +1,7 @@
 html {
   font-family: Roboto, sans-serif;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.4;
   color: black;
 
   --blue-color: #00acdc;
@@ -44,7 +44,7 @@ body {
 
   height: 60px;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.4;
   font-weight: 500;
   color: inherit;
   text-transform: uppercase;
@@ -75,10 +75,5 @@ body {
 }
 
 .nav__link:hover {
-  text-decoration: underline;
-  text-decoration-color: blue;
-}
-
-.blue_link {
   color: var(--blue-color);
 }
